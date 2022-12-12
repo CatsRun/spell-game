@@ -1,8 +1,8 @@
 # Spell
-A sorcerer has cast a spell on the kingdom. You have been tasked with stopping the spells by catching them. Find the hidden key on one of the animals to freeze them in place. Be diligent, some are harder to catch than others. 
+A sorcerer has cast a spell on the kingdom. You have been tasked with stopping the spells by catching them. Find the hidden key on one of the spells to freeze them in place. Be diligent, some are harder to catch than others. 
 
 Objective:
-Collect the falling objects. Some objects will cause the falling to pause, leaving on white object to catch. Find it. Catch it. The other objects may start falling again or the could be just one…
+Collect the falling objects. Some objects will cause the falling to pause, leaving one white object to catch. Find it. Catch it. The other objects may start falling again or the could be just one…
 
 
 ## Getting Started
