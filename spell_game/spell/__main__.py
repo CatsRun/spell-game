@@ -39,7 +39,7 @@ def main():
     _banner.set_font_size(FONT_SIZE)
     _banner.set_color(WHITE)
     _banner.set_position(Point(CELL_SIZE, 0))
-    cast.add_actor("banners", banner)
+    cast.add_actor("banners", _banner)
 
     # create spell
     lives = Actor()
