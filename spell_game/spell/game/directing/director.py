@@ -91,7 +91,7 @@ class Director:
                     artifact.set_color(WHITE)
                     lives.set_text(f'Spell: {spell_effect}') #change the print
                     break # this causes the pause in all items but 1 until if statment is wrong
-                # if self._points > 50:
+                # if self._points > 100:
                 #     end_title.set_text('YAY, you won!\nPlay again?')
         
     def _do_outputs(self, cast):
