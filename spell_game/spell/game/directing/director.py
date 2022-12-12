@@ -55,7 +55,7 @@ class Director:
         """
 
         # moved to handle_collisions_artifact?
-        banner = cast.get_first_actor("banners")
+        _banner = cast.get_first_actor("banners")
         lives = cast.get_first_actor('lives')
         end_title = cast.get_first_actor('end')
         spider = cast.get_first_actor("spiders")
@@ -78,7 +78,7 @@ class Director:
                     cast.remove_actor('artifacts', artifact)
 
                 artifact.move_next(max_x, max_y)
-                banner.set_text(f'Score: {self._points}') #shows current points on screen
+                _banner.set_text(f'Score: {self._points}') #shows current points on screen
                 lives.set_text(f'Spell: {spell_effect}') 
 
                 # if self._points < 0: #end game if there are no points
